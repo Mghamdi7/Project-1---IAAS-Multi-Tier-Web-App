@@ -31,3 +31,7 @@ variable "allowed_ports" {
   default = ["22", "80", "443"]
 }
 
+
+variable "access_token" {
+  
+}
