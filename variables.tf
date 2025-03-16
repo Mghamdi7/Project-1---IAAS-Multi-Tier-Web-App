@@ -32,6 +32,6 @@ variable "allowed_ports" {
 }
 
 
-variable "access_token" {
+#variable "access_token" {
   
-  }
+#  }
