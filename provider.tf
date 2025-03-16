@@ -3,6 +3,6 @@ provider "aws" {
   profile = "default" 
   }
 
-  provider "github" {
-token = var.access_token
-  } 
+ # provider "github" {
+#token = var.access_token
+  #} 
