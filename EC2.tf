@@ -1,7 +1,7 @@
-resource "aws_key_pair" "MyKey_SSH" {
-  key_name   = "MyKey"
-  public_key = file("~/.ssh/MyKey.pub")
-}
+#resource "aws_key_pair" "MyKey_SSH" {
+#  key_name   = "MyKey"
+#  public_key = file("~/.ssh/MyKey.pub")
+#}
 
 resource "aws_instance" "web" {
   ami                    = "ami-0dfcb1ef8550277af"
